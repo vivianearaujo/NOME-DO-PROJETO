@@ -1,0 +1,88 @@
+
+
+
+
+
+form .contato {
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+  	opacity: 0.8;
+
+}
+
+.enviar button {
+	height: 20px;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+ 	background-color: #DEB887;
+  	border-radius: 5px;
+}
+
+#nome, #email{
+	height: 20px;
+	background-color: #FFDEAD;
+	border-radius: 5px;
+
+}
+
+#mensagem {
+	height: 150px;
+	background-color: #FFDEAD;
+	border-radius: 5px;
+
+}
+
+
+
+.enviar {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive,sans-serif;
+
+
+}
+
+
+.mais-contato a:not(.topo){
+	background-color: black;
+	padding: 3px;
+	border-radius: 25px;
+}
+
+
+.topo i {
+	background-color: black;
+	border-radius: 25px;
+}
+
+@media all and (min-width: 1000px){
+
+	form .contato {
+		width: 600px;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+<h1> <i class="material-icons">&#xE0D0;</i> Nos envie sua lista.</h1>*/

@@ -1,0 +1,217 @@
+
+
+@font-face {
+font-family: 'Material Icons';
+font-style: normal;
+font-weight: 400;
+src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+  url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+  url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 24px;  /* Preferred icon size */
+display: inline-block;
+line-height: 1;
+text-transform: none;
+letter-spacing: normal;
+word-wrap: normal;
+white-space: nowrap;
+direction: ltr;
+
+/* Support for all WebKit browsers. */
+-webkit-font-smoothing: antialiased;
+/* Support for Safari and Chrome. */
+text-rendering: optimizeLegibility;
+
+/* Support for Firefox. */
+-moz-osx-font-smoothing: grayscale;
+
+/* Support for IE. */
+font-feature-settings: 'liga';
+}
+
+
+
+body{
+  background-image: url(../img/ac.jpg);
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+
+.layout {
+	display: grid;
+	grid-template-areas:
+      "logo"
+      "menu"
+      "conteudo";
+}
+
+@media all and (min-width: 1000px){
+
+	body {
+		display: block;
+		background-size: contain;
+	}
+
+}
+
+
+/*topo*/
+
+
+#logo img {
+	width: 100%;
+}
+
+@media all and (min-width: 1000px){
+
+
+	#logo img {
+		width: 600px;
+	}
+}
+
+
+/*menu*/
+
+#menu {
+	margin-top:35px;
+}
+
+table{
+  font-family: 'Josefin Sans', cursive, sans-serif;
+  margin-top: 50px;
+  margin: auto;
+  text-align: center;
+
+}
+
+table td{
+  background-color: #000000;
+}
+
+table,tr,td{
+  padding: 5px;
+  background-image: url(../img/cinzatrans.png);
+  border-radius: 25px;
+  color: #DCDCDC;
+  font-size: 15px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+td:hover{
+  font-style: italic;
+  background-color: #0000FF;
+
+  }
+
+
+@media all and (min-width: 500px){
+
+
+	/*menu*/
+
+	table {
+	  font-family: 'Josefin Sans', cursive, sans-serif;
+	  font-size: 25px;
+	  width: 100%;
+	  margin: auto;
+	  text-align: center;
+	}
+
+	table td {
+	  background-color: #000000;
+
+	}
+
+	table,tr,td {
+	  padding: 5px;
+	  background-image: url(../img/cinzatrans.png);
+	  border-radius: 25px;
+	  color: #DCDCDC;
+	}
+}
+
+@media all and (min-width: 1000px){
+
+	table {
+		width: 50%;
+	}
+
+}
+
+
+
+
+/*ofertas*/
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive,sans-serif;
+    background-image: url(../img/cinzatrans.png);
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+
+@media all and (min-width: 1000px){
+
+	h2 {
+		width: 50%;
+		font-size: 35px;
+
+	}
+
+}
+
+#ofertas p i {
+		background-color: black;
+		border-radius: 25px;
+
+
+	}
+
+/*conteudo*/
+
+
+
+@media all and (min-width: 1000px){
+
+	#conteudo {
+
+	    width: 900px;
+	    height: auto;
+	    margin: 0px auto;
+	    background-color: none;
+	    text-align: center;
+	    font-style: bold;
+	    margin-bottom: 50px;
+	}
+
+hr {
+	width: 900px;
+
+}
+
+
+
+
+}
